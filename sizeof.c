@@ -41,3 +41,6 @@ int main(int argc, char const *argv[]){
  * long double : 12
  * float : 4
  */
+ // if sizeof a string ,the sizeof is the length+1
+ // e.g. sizeof("test")=5
+ // e.g. strlen("test")=4 (include string.h)
