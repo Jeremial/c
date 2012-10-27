@@ -2,7 +2,8 @@
 /*count space tab or lines in input*/
 int main(int argc, char const *argv[])
 {
-	int c,sl = tl = nl = 0;
+	int c,sl,tl,nl;
+  sl = tl = nl =0;
 	while((c = getchar()) != EOF)
 		if (c == ' ')
 		{
@@ -16,7 +17,7 @@ int main(int argc, char const *argv[])
 		{
 			nl++;
 		}
-	printf("%d\n", );
+	printf("space:%d\ntabs:%d\nnewlines:%d\n",sl,tl,nl );
 	return 0;
 }
 
