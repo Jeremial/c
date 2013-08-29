@@ -3,8 +3,8 @@
  * 某一个字符)时,观察一下会出现什么情况
  */
 #include <stdio.h>
- int main(){
- 	printf("helloworld\n");
- 	return 0;
- }
- // \c is not a available char
+int main() {
+  printf("helloworld\n");
+  return 0;
+}
+// \c is not a available char

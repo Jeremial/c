@@ -1,28 +1,22 @@
 #include <stdio.h>
 /*count space tab or lines in input*/
-int main(int argc, char const *argv[])
-{
-	int c,sl,tl,nl;
-  sl = tl = nl =0;
-	while((c = getchar()) != EOF)
-		if (c == ' ')
-		{
-			sl++;
-		}
-		else if (c == '\t')
-		{
-			tl++;
-		}
-		else if (c == '\n')
-		{
-			nl++;
-		}
-	printf("space:%d\ntabs:%d\nnewlines:%d\n",sl,tl,nl );
-	return 0;
+int main(int argc, char const *argv[]) {
+  int c, sl, tl, nl;
+  sl = tl = nl = 0;
+  while ((c = getchar()) != EOF)
+    if (c == ' ') {
+      sl++;
+    } else if (c == '\t') {
+      tl++;
+    } else if (c == '\n') {
+      nl++;
+    }
+  printf("space:%d\ntabs:%d\nnewlines:%d\n", sl, tl, nl );
+  return 0;
 }
 
 /*
-officle answer 
+officle answer
 #include <stdio.h>
 
 int main(void)
