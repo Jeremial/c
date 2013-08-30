@@ -1,3 +1,4 @@
+// Copyright 2013 <Copyright VitoLau>
 #include <stdio.h>
 int main(int argc, char const *argv[]) {
   printf("the size of commonly used variable is \n");
