@@ -20,3 +20,9 @@
 *.exe
 *.out
 *.app
+
+hardway/*
+!hardway/*.c
+
+kr/*
+!kr/*.c
